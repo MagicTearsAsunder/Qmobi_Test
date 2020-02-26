@@ -1,5 +1,7 @@
 # Установка
-    sudo docker-compose up
+    $ git clone https://github.com/MagicTearsAsunder/Qmobi_Test.git
+    $ cd Qmobi_Test
+    $ sudo docker-compose up
     
 # Как работает
 Необходимо отправить POST запрос в формате JSON:
@@ -14,10 +16,8 @@
 только numeric.
 
 ### Подобный запрос можно составить через curl:
-
       curl -i --request POST \
         --data '{"currency":"USD", "value":"15"}' http://[АДРЕС]:[ПОРТ]
         
 ### Или тестирующим скриптом:
-    
-    python tests.py [АДРЕС]:[ПОРТ]
+      python tests.py [АДРЕС]:[ПОРТ]

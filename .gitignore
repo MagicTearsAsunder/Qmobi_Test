@@ -1,0 +1,10 @@
+# system, cache or compiled files
+__pycache__
+.idea/
+.pytest_cache/
+.cache/
+
+# virtual environment
+venv
+env
+ENV
